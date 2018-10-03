@@ -1,0 +1,92 @@
+﻿body, html {
+    margin: 0;
+    padding: 0;
+    /*font: 1.03em "open Sans", sans-serif;*/
+}
+body {
+    background-color: #eee;
+}
+
+
+
+/* menu*/
+.menu {
+    width: 100%;
+    background-color: dodgerblue;
+    height: 60px;
+}
+
+.menu #logo {
+    float: left;
+    height: 30px;
+    padding: 15px;
+    font-size: 1.2em;
+    line-height: 30px;
+
+    
+}
+   
+ .menu > ul {
+        margin: 0;
+        padding: 0;
+        float: left;
+         list-style-type: none;
+    }
+    .menu > ul > li {
+        float: left;
+        
+    }
+.menu-item {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+
+}
+    .menu-item:hover {
+        background-color: #9400D3;
+       
+    }
+    /*-------------inne knapper-----*/
+.sub-content {
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+    background-color: dodgerblue;
+    
+}
+.sub-content {
+    color: #fff;
+    text-decoration: none;
+}
+.sub-drop {
+     padding:0 ;  
+}
+.sub-drop > ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+.sub-drop ul li a {
+    display: inline-block;
+    padding: 10px 40px;
+
+}
+.sub-drop ul li:hover {
+        background-color: #9400D3;
+    }
+
+
+/* .search {
+        background-color: #FFF;
+        border: 1px solid #DDD;
+        border-radius: 3px;
+        color: #AAA;
+        padding: 20px;
+        margin: 50px auto 0px auto;
+        width: 77%;
+    }*/
